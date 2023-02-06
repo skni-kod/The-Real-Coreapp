@@ -6,6 +6,8 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Python Black
-        uses: cytopia/docker-black@0.11
+      - uses: psf/black@stable
+        with:
+          options: "--check --verbose"
+          src: "./"
+          version: "23.1.0"
