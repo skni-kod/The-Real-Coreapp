@@ -3,3 +3,4 @@ class D:
 class B:
   pass
 print("d")
+print('dupa')
