@@ -1,6 +1,10 @@
 class D:
-  pass
+    pass
+
+
 class B:
-  pass
-print(               "d" )
-print('dupa')
+    pass
+
+
+print("d")
+print("dupa")
